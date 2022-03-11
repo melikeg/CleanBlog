@@ -25,8 +25,9 @@
       <div class="col-lg-8 col-md-10 mx-auto">
 
         <% for (let i=0 ; i< blogposts.lenght; i++) { %>
+
         <div class="post-preview">
-          <a href="/post">
+          <a href="/blogposts/<%= blogposts[i]._id %>">
             <h2 class="post-title">
               <%= blogposts[i].title %>
             </h2>
